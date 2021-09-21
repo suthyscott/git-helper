@@ -1,7 +1,7 @@
 To create a git repository: 
 
 
-# Method One - Creating local and remote repos and then connecting them. 
+# Method One - Creating local and remote repos separately and then connecting them. 
 
 ### Set up the local repo
 1. In your command line, navigate into the project folder you would like to make a repo in. *You should only create a single repo for a single project*. Type in pwd to make sure you're in the correct place. 
@@ -64,7 +64,7 @@ a.	You should see that your new repository now has one commit
 
 ## No matter how you created and connected your local and remote repos: 
 
-As you code and make changes that you want push up, follow the below steps:
+### As you code and make changes that you want push up, follow the below steps:
 1. `git status` Shows the status of the git repo. Any files in which you've made changes will be listed out, in red. 
 2. `git add .` Will add or start tracking any files in which you've made changes. 
 3. `git status` You should now see the files you added in green, showing that they're ready to commit. 
